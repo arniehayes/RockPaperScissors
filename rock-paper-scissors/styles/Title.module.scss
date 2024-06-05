@@ -1,0 +1,42 @@
+.outerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+
+    border: 4px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+
+    margin-bottom: 6rem;
+}
+
+.titleContainer {
+    display: flex;
+    padding: 1rem;
+    .title {
+        color: #e2e2e2;
+        font-size: 20px;
+    }
+}
+
+.scoreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e2e2;
+    border-radius: 5%;
+    padding: .5rem 1.5rem;
+    margin: 1rem;
+
+    .score {
+        color: hsl(229, 64%, 46%);
+        font-size: 14px;
+    }
+    
+    .number {
+        color: hsl(229, 25%, 31%);
+        font-size: 40px;
+    }
+}
